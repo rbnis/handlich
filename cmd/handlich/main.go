@@ -77,5 +77,5 @@ func redirectHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Log and redirect
 	log.Info("Redirecting", "shortCode", shortCode, "longURL", longURL)
-	http.Redirect(w, r, longURL, http.StatusFound) // 302 redirect
+	http.Redirect(w, r, longURL, http.StatusSeeOther)
 }
