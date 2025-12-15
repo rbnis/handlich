@@ -1,0 +1,13 @@
+logLevel: info
+
+backend:
+  type: file # memory, file, redis, sqlite
+  file:
+    mode: read-only # read-write
+    path: configs/redirects.yaml
+  # redis:
+  #   host: ""
+  #   username: ""
+  #   password: ""
+  # sqlite:
+  #   path: ""

@@ -1,0 +1,28 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.sum
+vendor/
+.vscode/
+.idea/
+*.prof
+*.log
+/tmp/
+/dist/
+/build/
+*.pprof
+__debug_bin
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
